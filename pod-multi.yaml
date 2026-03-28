@@ -14,4 +14,4 @@ spec:
 
   - name: sidecar-container
     image: busybox
-    command: ["sh", "-c", "while true; do echo Hello from poorna; sleep 5; done"]
+    command: ["sh", "-c", "while true; do echo Hello from sidecar; sleep 5; done"]
